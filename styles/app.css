@@ -9,6 +9,7 @@
 
 body {
   font-family: var(--main-font);
+  background-color: var(--background-color) !important;
 }
 
 h1,
@@ -21,11 +22,11 @@ h3 {
 .hero {
   text-align: center;
   background-color: var(--background-color);
-  padding: 180px 20px;
+  padding: 120px 20px 100px 20px;
 }
 
 .hero h1 {
-  font-size: 96px;
+  font-size: 76px;
 }
 
 .hero p {
@@ -51,4 +52,21 @@ h3 {
   color: var(--background-color) !important;
   font-size: 20px !important;
   line-height: 27px !important;
+}
+
+.photo-section p {
+  color: var(--text-accent-color);
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .hero p {
+    font-size: 20px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .photo-description {
+    font-size: 15px !important;
+  }
 }

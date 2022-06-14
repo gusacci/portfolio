@@ -59,22 +59,22 @@ h3 {
   font-size: 24px;
 }
 
-.team-hero {
+.content {
   padding: 200px 140px;
 }
 
-.team-hero h1 {
+.content h1 {
   font-size: 40px;
   line-height: 1;
 }
 
-.team-hero h2 {
+.content h2 {
   font-size: 18px;
   line-height: 27px;
   font-family: var(--main-font);
 }
 
-.team-hero p {
+.content p {
   line-height: 2;
   color: var(--text-accent-color);
   opacity: 70%;
@@ -94,7 +94,7 @@ h3 {
   .photo-description {
     font-size: 15px !important;
   }
-  .team-hero {
+  .content {
     padding: 50px 10px;
   }
 }

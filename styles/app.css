@@ -34,6 +34,7 @@ h3 {
   font-size: 36px;
   font-weight: bold;
   color: var(--text-accent-color);
+  text-shadow: 1px 1px 2px var(--secondary-color);
 }
 
 .hero h2 {
@@ -124,6 +125,11 @@ h3 {
 .contact a {
   text-decoration: none;
   color: var(--text-accent-color);
+}
+
+.contact a:hover {
+  color: var(--text-accent-color);
+  text-decoration: underline;
 }
 
 .navbar-salm {

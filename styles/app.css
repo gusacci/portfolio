@@ -22,7 +22,7 @@ h3 {
 .hero {
   text-align: center;
   background-color: var(--background-color);
-  padding: 200px 140px;
+  padding: 100px 200px;
 }
 
 .hero h1 {
@@ -60,7 +60,7 @@ h3 {
 }
 
 .content {
-  padding: 200px 140px;
+  padding: 100px 140px;
 }
 
 .content h1 {
@@ -118,4 +118,17 @@ h3 {
 .contact a {
   text-decoration: none;
   color: var(--text-accent-color);
+}
+
+.navbar-salm {
+  background-color: var(--primary-color);
+}
+
+.coffee-icon {
+  font-size: 30px;
+  color: var(--background-color);
+}
+
+.active {
+  color: var(--background-color) !important;
 }

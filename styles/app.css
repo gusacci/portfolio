@@ -1,7 +1,7 @@
 :root {
   --background-color: #fff5d4;
   --primary-color: #f0ac8b;
-  --secondary-color: #b5d0c9;
+  --secondary-color: #fce6a6;
   --text-accent-color: #272142;
   --accent-font: "Playfair Display", serif;
   --main-font: "Poppins", sans-serif;
@@ -23,6 +23,7 @@ h3 {
   text-align: center;
   background-color: var(--background-color);
   padding: 100px 200px;
+  padding-bottom: 0px;
 }
 
 .hero h1 {
@@ -81,9 +82,14 @@ h3 {
   font-size: 16px;
 }
 
+.content img {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 700px) {
   .hero {
     padding: 50px 10px;
+    padding-bottom: 0;
   }
   .hero p {
     font-size: 20px;
@@ -131,4 +137,38 @@ h3 {
 
 .active {
   color: var(--background-color) !important;
+}
+
+.email-link {
+  text-decoration: none;
+  color: var(--text-accent-color);
+  font-size: 20px;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+}
+
+.social-media-icons {
+  font-size: 30px;
+}
+
+.social-media-icons a {
+  padding: 8px 15px;
+  margin: 10px;
+  color: var(--primary-color);
+
+  border-radius: 50%;
+}
+
+.social-media-icons a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding-top: 10px;
+  margin: 30px 40px;
+  border-radius: 10px;
 }
